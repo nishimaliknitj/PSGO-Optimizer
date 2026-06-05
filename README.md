@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Release](https://img.shields.io/badge/Release-v1.0.0-orange)
+![Status](https://img.shields.io/badge/Status-Research-red)
+
+# PSGO-Optimizer
 # PSGO-Optimizer
 
 ## PSGO: A Novel Asymmetric Dual-Agent Swarm Optimization Inspired by Pistol Shrimp–Goby Fish Mutualism for Feature Selection and Engineering Design Optimization
