@@ -1,8 +1,14 @@
 cff-version: 1.2.0
-title: PSGO-Optimizer
-message: "If you use this software, please cite our paper."
+title: "PSGO: A Novel Asymmetric Dual-Agent Swarm Optimization Inspired by Pistol Shrimp–Goby Fish Mutualism for Feature Selection and Engineering Design Optimization"
+message: "If you use this software, please cite our work."
 authors:
-  - family-names: Kumar
+  - family-names: Madan
+    given-names: Nishi
+  - family-names: Malik
     given-names: Rahul
+  - family-names: Kumar
+    given-names: Alok
+  - family-names: Upadhyaya
+    given-names: Utsav
 repository-code: https://github.com/nishimaliknitj/PSGO-Optimizer
 license: MIT
