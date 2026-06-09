@@ -1,0 +1,302 @@
+{
+  "BreastCancer": {
+    "n_samples": 569,
+    "n_features": 30,
+    "algos": {
+      "PSO": {
+        "accuracy": 96.75,
+        "n_features": 18.5
+      },
+      "GWO": {
+        "accuracy": 96.13,
+        "n_features": 20.0
+      },
+      "WOA": {
+        "accuracy": 96.31,
+        "n_features": 23.0
+      },
+      "SCA": {
+        "accuracy": 96.66,
+        "n_features": 22.5
+      },
+      "HHO": {
+        "accuracy": 95.96,
+        "n_features": 10.5
+      },
+      "AO": {
+        "accuracy": 96.4,
+        "n_features": 13.0
+      },
+      "AVOA": {
+        "accuracy": 96.05,
+        "n_features": 20.5
+      },
+      "ARO": {
+        "accuracy": 96.4,
+        "n_features": 19.0
+      },
+      "INFO": {
+        "accuracy": 96.48,
+        "n_features": 20.0
+      },
+      "SGA": {
+        "accuracy": 96.31,
+        "n_features": 20.5
+      },
+      "PSGO": {
+        "accuracy": 96.92,
+        "n_features": 21.0
+      }
+    }
+  },
+  "Parkinsons": {
+    "n_samples": 195,
+    "n_features": 22,
+    "algos": {
+      "PSO": {
+        "accuracy": 73.59,
+        "n_features": 15.5
+      },
+      "GWO": {
+        "accuracy": 68.72,
+        "n_features": 13.0
+      },
+      "WOA": {
+        "accuracy": 76.15,
+        "n_features": 18.0
+      },
+      "SCA": {
+        "accuracy": 76.92,
+        "n_features": 18.5
+      },
+      "HHO": {
+        "accuracy": 70.77,
+        "n_features": 13.0
+      },
+      "AO": {
+        "accuracy": 72.82,
+        "n_features": 13.0
+      },
+      "AVOA": {
+        "accuracy": 78.21,
+        "n_features": 16.5
+      },
+      "ARO": {
+        "accuracy": 79.49,
+        "n_features": 19.5
+      },
+      "INFO": {
+        "accuracy": 76.15,
+        "n_features": 16.0
+      },
+      "SGA": {
+        "accuracy": 73.33,
+        "n_features": 17.0
+      },
+      "PSGO": {
+        "accuracy": 76.92,
+        "n_features": 15.5
+      }
+    }
+  },
+  "Ionosphere": {
+    "n_samples": 351,
+    "n_features": 34,
+    "algos": {
+      "PSO": {
+        "accuracy": 68.8,
+        "n_features": 23.5
+      },
+      "GWO": {
+        "accuracy": 71.37,
+        "n_features": 25.0
+      },
+      "WOA": {
+        "accuracy": 70.23,
+        "n_features": 26.0
+      },
+      "SCA": {
+        "accuracy": 72.36,
+        "n_features": 27.5
+      },
+      "HHO": {
+        "accuracy": 69.66,
+        "n_features": 26.5
+      },
+      "AO": {
+        "accuracy": 70.37,
+        "n_features": 22.5
+      },
+      "AVOA": {
+        "accuracy": 72.65,
+        "n_features": 26.0
+      },
+      "ARO": {
+        "accuracy": 73.36,
+        "n_features": 25.5
+      },
+      "INFO": {
+        "accuracy": 72.22,
+        "n_features": 25.0
+      },
+      "SGA": {
+        "accuracy": 68.95,
+        "n_features": 27.0
+      },
+      "PSGO": {
+        "accuracy": 71.51,
+        "n_features": 26.0
+      }
+    }
+  },
+  "Diabetes": {
+    "n_samples": 768,
+    "n_features": 8,
+    "algos": {
+      "PSO": {
+        "accuracy": 75.07,
+        "n_features": 6.5
+      },
+      "GWO": {
+        "accuracy": 76.43,
+        "n_features": 5.5
+      },
+      "WOA": {
+        "accuracy": 70.38,
+        "n_features": 5.0
+      },
+      "SCA": {
+        "accuracy": 63.61,
+        "n_features": 5.0
+      },
+      "HHO": {
+        "accuracy": 63.22,
+        "n_features": 3.0
+      },
+      "AO": {
+        "accuracy": 68.68,
+        "n_features": 4.0
+      },
+      "AVOA": {
+        "accuracy": 75.78,
+        "n_features": 5.5
+      },
+      "ARO": {
+        "accuracy": 75.13,
+        "n_features": 7.0
+      },
+      "INFO": {
+        "accuracy": 69.53,
+        "n_features": 5.0
+      },
+      "SGA": {
+        "accuracy": 76.56,
+        "n_features": 4.5
+      },
+      "PSGO": {
+        "accuracy": 75.2,
+        "n_features": 6.5
+      }
+    }
+  },
+  "Sonar": {
+    "n_samples": 208,
+    "n_features": 60,
+    "algos": {
+      "PSO": {
+        "accuracy": 67.05,
+        "n_features": 46.5
+      },
+      "GWO": {
+        "accuracy": 61.54,
+        "n_features": 40.5
+      },
+      "WOA": {
+        "accuracy": 63.7,
+        "n_features": 47.0
+      },
+      "SCA": {
+        "accuracy": 63.44,
+        "n_features": 50.5
+      },
+      "HHO": {
+        "accuracy": 63.22,
+        "n_features": 49.0
+      },
+      "AO": {
+        "accuracy": 58.65,
+        "n_features": 42.0
+      },
+      "AVOA": {
+        "accuracy": 63.23,
+        "n_features": 46.5
+      },
+      "ARO": {
+        "accuracy": 61.77,
+        "n_features": 48.0
+      },
+      "INFO": {
+        "accuracy": 64.18,
+        "n_features": 45.5
+      },
+      "SGA": {
+        "accuracy": 63.47,
+        "n_features": 49.0
+      },
+      "PSGO": {
+        "accuracy": 65.63,
+        "n_features": 46.5
+      }
+    }
+  },
+  "HeartDisease": {
+    "n_samples": 303,
+    "n_features": 13,
+    "algos": {
+      "PSO": {
+        "accuracy": 78.22,
+        "n_features": 7.5
+      },
+      "GWO": {
+        "accuracy": 68.65,
+        "n_features": 6.5
+      },
+      "WOA": {
+        "accuracy": 73.93,
+        "n_features": 8.0
+      },
+      "SCA": {
+        "accuracy": 78.88,
+        "n_features": 8.5
+      },
+      "HHO": {
+        "accuracy": 79.37,
+        "n_features": 8.5
+      },
+      "AO": {
+        "accuracy": 79.54,
+        "n_features": 6.0
+      },
+      "AVOA": {
+        "accuracy": 80.03,
+        "n_features": 9.5
+      },
+      "ARO": {
+        "accuracy": 75.74,
+        "n_features": 8.5
+      },
+      "INFO": {
+        "accuracy": 78.05,
+        "n_features": 8.5
+      },
+      "SGA": {
+        "accuracy": 79.87,
+        "n_features": 9.5
+      },
+      "PSGO": {
+        "accuracy": 76.9,
+        "n_features": 9.0
+      }
+    }
+  }
+}
