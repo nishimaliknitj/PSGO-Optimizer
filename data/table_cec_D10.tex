@@ -1,0 +1,46 @@
+\begin{sidewaystable}
+\caption{Mean error $\Delta f$, $D=10$, 30 runs. \textbf{Bold}=best; \underline{u}=2nd.}
+\label{tab:cec10D}
+\footnotesize\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{2.5pt}\scriptsize
+\begin{tabular}{cl*{10}{R{1.60cm}}R{1.70cm}}
+\toprule
+\rowcolor{tabhead}&&\multicolumn{1}{c}{\textbf{PSO}} & \multicolumn{1}{c}{\textbf{GWO}} & \multicolumn{1}{c}{\textbf{WOA}} & \multicolumn{1}{c}{\textbf{SCA}} & \multicolumn{1}{c}{\textbf{HHO}} & \multicolumn{1}{c}{\textbf{AO}} & \multicolumn{1}{c}{\textbf{AVOA}} & \multicolumn{1}{c}{\textbf{ARO}} & \multicolumn{1}{c}{\textbf{INFO}} & \multicolumn{1}{c}{\textbf{SGA}} & \multicolumn{1}{c}{\cellcolor{psgorow}\textbf{PSGO}}\\
+\rowcolor{tabhead}\mc{F}&\mc{T}&\mc{Mean} & \mc{Mean} & \mc{Mean} & \mc{Mean} & \mc{Mean} & \mc{Mean} & \mc{Mean} & \mc{Mean} & \mc{Mean} & \mc{Mean} & \mc{\cellcolor{psgorow}Mean}\\
+\midrule
+\midrule
+$F_{1}$ & Uni & 1.03E+08 & 2.39E+08 & \underline{5.44E+04} & 1.41E+09 & 6.56E+09 & 2.51E+05 & \textbf{2.27E+03} & 8.57E+08 & 3.48E+09 & 1.32E+05 & \cellcolor{psgorow}1.27E+05\\
+$F_{3}$ & Uni & \textbf{4.89E+00} & 4.37E+01 & 1.31E+01 & 8.04E+01 & 2.47E+02 & 5.82E+01 & 2.22E+01 & 7.77E+01 & 1.75E+02 & 2.06E+01 & \cellcolor{psgorow}\underline{6.07E+00}\\
+\midrule
+$F_{4}$ & Multi & 9.52E+01 & 2.04E+02 & 6.31E+01 & 1.16E+03 & 5.96E+03 & 8.45E+01 & \underline{3.85E+01} & 1.11E+03 & 4.13E+03 & \textbf{3.48E+01} & \cellcolor{psgorow}4.85E+01\\
+$F_{5}$ & Multi & \textbf{1.67E-06} & \underline{7.14E-05} & 1.66E-04 & 2.09E-03 & 1.16E-03 & 1.90E-04 & 3.12E-04 & 1.65E-03 & 6.71E-04 & 1.30E-04 & \cellcolor{psgorow}3.17E-04\\
+$F_{6}$ & Multi & 3.94E+03 & 3.97E+03 & 1.18E+02 & 2.47E+04 & 1.59E+05 & 1.09E+02 & \textbf{3.58E+01} & 2.23E+04 & 1.18E+05 & 7.80E+01 & \cellcolor{psgorow}\underline{7.07E+01}\\
+$F_{7}$ & Multi & \textbf{3.08E+01} & 4.52E+01 & 5.45E+01 & 6.97E+01 & 8.29E+01 & 7.41E+01 & 6.89E+01 & 7.08E+01 & 7.47E+01 & \underline{4.05E+01} & \cellcolor{psgorow}4.32E+01\\
+$F_{8}$ & Multi & 5.52E-01 & \underline{2.68E-01} & 8.00E-01 & 9.71E-01 & 2.86E+00 & 1.57E+00 & 2.33E+00 & 6.82E-01 & 3.34E+00 & 6.59E-01 & \cellcolor{psgorow}\textbf{2.75E-02}\\
+$F_{9}$ & Multi & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & 2.92E+01 & \textbf{0.00E+00} & \underline{7.59E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \cellcolor{psgorow}\textbf{0.00E+00}\\
+$F_{10}$ & Multi & \textbf{4.00E+01} & 1.45E+04 & 7.70E+02 & 7.71E+03 & 2.46E+04 & 4.01E+03 & 1.60E+03 & 7.50E+03 & 3.18E+04 & 4.80E+02 & \cellcolor{psgorow}\underline{2.46E+02}\\
+\midrule
+$F_{11}$ & Hyb & \textbf{1.49E+04} & 3.06E+06 & 5.78E+05 & 9.11E+07 & 2.67E+08 & 5.62E+06 & \underline{1.62E+04} & 3.11E+07 & 3.64E+07 & 2.65E+04 & \cellcolor{psgorow}5.20E+04\\
+$F_{12}$ & Hyb & 4.75E+04 & 8.69E+05 & 4.53E+04 & 1.27E+06 & 2.72E+07 & 2.49E+05 & 2.58E+04 & 2.25E+06 & 1.31E+07 & \underline{9.36E+03} & \cellcolor{psgorow}\textbf{4.88E+03}\\
+$F_{13}$ & Hyb & \underline{3.91E+03} & 1.77E+04 & 1.39E+04 & 9.97E+03 & 1.74E+04 & 1.73E+04 & 1.33E+04 & 1.16E+04 & 2.47E+04 & 5.43E+03 & \cellcolor{psgorow}\textbf{2.66E+03}\\
+$F_{14}$ & Hyb & 1.34E+05 & 2.45E+05 & 1.16E+05 & 8.67E+05 & 1.06E+06 & 4.73E+05 & 1.04E+05 & 4.34E+05 & 4.82E+05 & \underline{3.51E+04} & \cellcolor{psgorow}\textbf{6.38E+03}\\
+$F_{15}$ & Hyb & \underline{6.45E+02} & 3.33E+03 & 1.81E+03 & 3.88E+03 & 1.52E+04 & 8.43E+03 & 2.50E+03 & 7.29E+03 & 1.62E+04 & 1.42E+03 & \cellcolor{psgorow}\textbf{2.30E+02}\\
+$F_{16}$ & Hyb & 9.08E+02 & 2.70E+04 & 7.33E+02 & 4.54E+03 & 3.91E+04 & 1.89E+03 & 5.03E+02 & 7.65E+03 & 2.04E+04 & \underline{3.95E+02} & \cellcolor{psgorow}\textbf{9.51E+01}\\
+$F_{17}$ & Hyb & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \cellcolor{psgorow}\textbf{0.00E+00}\\
+$F_{18}$ & Hyb & 6.36E+03 & \underline{6.26E+03} & 1.58E+04 & 1.32E+06 & 2.83E+09 & 2.97E+04 & 1.19E+04 & 1.19E+06 & 1.51E+09 & 9.34E+03 & \cellcolor{psgorow}\textbf{2.65E+02}\\
+$F_{19}$ & Hyb & 3.99E+01 & 1.81E+02 & 4.66E+01 & 1.60E+02 & 6.79E+02 & 2.60E+02 & 6.53E+01 & 2.16E+02 & 3.88E+02 & \textbf{9.05E+00} & \cellcolor{psgorow}\underline{1.48E+01}\\
+$F_{20}$ & Hyb & 2.78E+02 & 2.70E+02 & 1.64E+02 & 6.12E+02 & 2.90E+03 & \underline{1.36E+02} & 1.39E+02 & 5.10E+02 & 2.47E+03 & \textbf{1.25E+02} & \cellcolor{psgorow}1.41E+02\\
+\midrule
+$F_{21}$ & Comp & 9.84E+01 & 1.04E+02 & 6.15E+01 & \textbf{2.74E+01} & 8.83E+01 & 4.60E+01 & 1.05E+02 & 3.87E+01 & 1.38E+02 & \underline{2.80E+01} & \cellcolor{psgorow}7.17E+01\\
+$F_{22}$ & Comp & 2.25E+02 & 3.36E+02 & 1.79E+02 & 9.69E+02 & 1.60E+03 & 1.73E+02 & 1.61E+02 & 6.71E+02 & 1.36E+03 & \textbf{1.40E+02} & \cellcolor{psgorow}\underline{1.55E+02}\\
+$F_{23}$ & Comp & 5.54E+02 & 6.06E+02 & 2.28E+02 & 1.56E+03 & 2.94E+03 & \textbf{1.91E+02} & \underline{2.02E+02} & 1.24E+03 & 2.81E+03 & 2.32E+02 & \cellcolor{psgorow}2.43E+02\\
+$F_{24}$ & Comp & \underline{4.90E+02} & 5.08E+02 & 5.08E+02 & 5.53E+02 & 7.77E+02 & 5.33E+02 & 5.13E+02 & 6.00E+02 & 6.88E+02 & 5.01E+02 & \cellcolor{psgorow}\textbf{4.87E+02}\\
+$F_{25}$ & Comp & 4.39E+02 & 4.52E+02 & \underline{3.88E+02} & 4.67E+02 & 6.04E+02 & 4.83E+02 & 4.58E+02 & 4.42E+02 & 5.91E+02 & 4.31E+02 & \cellcolor{psgorow}\textbf{3.40E+02}\\
+$F_{26}$ & Comp & 4.05E+02 & 3.86E+02 & 3.92E+02 & 4.04E+02 & 5.10E+02 & \underline{3.76E+02} & 4.00E+02 & 3.88E+02 & 4.93E+02 & \textbf{3.62E+02} & \cellcolor{psgorow}3.78E+02\\
+$F_{27}$ & Comp & 2.90E+02 & 1.55E+02 & \underline{8.18E+01} & 3.48E+02 & 5.40E+02 & 2.97E+02 & 8.89E+01 & 2.66E+02 & 4.74E+02 & 1.10E+02 & \cellcolor{psgorow}\textbf{3.21E+01}\\
+$F_{28}$ & Comp & 8.44E+03 & 1.69E+06 & 8.12E+03 & 1.77E+05 & 2.03E+08 & 3.78E+04 & 1.28E+04 & 9.39E+04 & 2.56E+07 & \underline{5.38E+03} & \cellcolor{psgorow}\textbf{2.21E+03}\\
+$F_{29}$ & Comp & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \textbf{0.00E+00} & \cellcolor{psgorow}\textbf{0.00E+00}\\
+\midrule
+\rowcolor{tabhead}\multicolumn{2}{l}{\textbf{Fr.rank}} & 4.32 & 6.18 & 4.39 & 7.71 & 10.25 & 6.04 & 4.82 & 7.11 & 9.54 & \underline{2.93} & \cellcolor{psgorow}\textbf{2.71}\\
+\bottomrule
+\end{tabular}
+\end{sidewaystable}
