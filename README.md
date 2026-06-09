@@ -16,11 +16,7 @@ Official implementation of PSGO (Pistol Shrimp–Goby Fish Optimization), a biol
 
 * Nishi Madan
 * Rahul Malik
-* Alok Kumar
-* Utsav Upadhyaya
 
-Department of Computer Science and Engineering
-Galgotias University, India
 
 ---
 
@@ -162,7 +158,7 @@ If you use PSGO in your research, please cite the associated paper.
 ```bibtex
 @article{PSGO2026,
   title={PSGO: A Novel Asymmetric Dual-Agent Swarm Optimization Inspired by Pistol Shrimp--Goby Fish Mutualism for Feature Selection and Engineering Design Optimization},
-  author={Madan, Nishi and Malik, Rahul and Kumar, Alok and Upadhyaya, Utsav},
+  author={Madan, Nishi and Malik, Rahul},
   year={2026}
 }
 ```
